@@ -361,3 +361,77 @@
 }
 
 /* question part end */
+
+/* about part start */
+.about-area{
+    padding: 80px 150px;
+    background-color: rgba(15, 110, 140, 1);
+}
+.about{
+    display: flex;
+}
+
+.about-logo{
+    flex: 6;
+}
+.about-product{
+    flex: 2;
+}
+.about-company{
+    flex: 2;
+}
+.about-support{
+    flex: 2;
+}
+
+.about-logo-img{
+    width: 130px;
+}
+
+.about-product-heading, .about-company-heading, .about-support-heading{
+    color: rgba(244, 245, 247, 1);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 25px;
+}
+
+.product-item, .company-item, .Support-item{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.product-items, .Company-items, .Support-items{
+    color: rgba(238, 239, 244, 1);
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+
+}
+/* about part end */
+
+/* footer part start  */
+.footer-area{
+    padding: 20px 150px;
+    background-color: rgba(5, 84, 109, 1);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-pera{
+    color: rgba(217, 219, 225, 1);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+
+}
+.footer-icons > i{
+    color: rgba(217, 219, 225, 1);
+    padding: 0px 10px;
+}
+/* footer part end */
