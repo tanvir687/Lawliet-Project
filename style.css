@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
 /* header part start  */
 .header-area{
     margin: 20px 0px;
@@ -295,9 +301,9 @@
      }
 
      .testimonial-first-card, .testimonial-second-card{
-       width: 70%;
-       margin: 0 auto;
-       position: relative;
+       /* width: 70%; */
+       /* margin: 0 auto; */
+       /* position: relative; */
      }
 
      .testimonial-cart-owner{
@@ -319,10 +325,14 @@
      }
 
      .testimonial-cards-content{
-        /* display: flex; */
-        align-items: center;
+        display: flex;
+        /* align-items: center;
         justify-content: center;
-        text-align: center;
+        text-align: center; */
+     }
+
+     .card{
+        flex-basis: 50%;
      }
 /* testimonial part end */
 
